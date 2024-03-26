@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +30,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+
+
+body {
+  font-family: 'Noto Serif Bengali', sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background: linear-gradient(to bottom, #cbffd5, #ffffff); /* Adjust gradient colors */
+  min-height: 100vh; /* Ensure body covers the full viewport height */
 }
