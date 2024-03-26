@@ -1,75 +1,330 @@
 const bangladeshiProducts = [
     {
         id: 1,
-        name: "Lux Soap",
-        description: "Lux is a popular soap brand known for its luxurious fragrance and gentle cleansing properties.",
-        category: "Soap",
+        name: "Meril",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
     {
         id: 2,
-        name: "Sunsilk Shampoo",
-        description: "Sunsilk shampoo offers a range of hair care solutions, including nourishment, volume, and shine.",
-        category: "Shampoo",
+        name: "Keya",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
     {
         id: 3,
-        name: "Wheel Dishwash Bar",
-        description: "Wheel dishwash bar effectively removes grease and stains from dishes, leaving them sparkling clean.",
-        category: "Dishwash Bar",
+        name: "Sepnil",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
     {
         id: 4,
-        name: "Dettol Antiseptic Liquid",
-        description: "Dettol Antiseptic Liquid kills germs and provides protection against infection on cuts, scratches, and insect bites.",
-        category: "Antiseptic",
+        name: "Tibbet",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
     {
         id: 5,
-        name: "Total clean Toothpaste",
-        description: "Total clean Toothpaste provides complete oral care with its unique formulation that fights germs, prevents cavities, and freshens breath.",
-        category: "Toothpaste",
+        name: "Tibbet 777",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
     {
         id: 6,
-        name: "Ponds Beauty Cream",
-        description: "Ponds Beauty Cream hydrates and nourishes the skin, leaving it soft, smooth, and radiant.",
-        category: "Beauty",
+        name: "Lifeguard",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
     {
         id: 7,
-        name: "Lifebuoy Handwash",
-        description: "Lifebuoy Handwash cleans hands effectively and provides protection against germs, ensuring proper hand hygiene.",
-        category: "Handwash",
+        name: "Cute",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
-    // Three additional products
     {
         id: 8,
-        name: "Miswak Toothbrush",
-        description: "Colgate Toothbrush with soft bristles gently cleans teeth and gums, providing effective oral hygiene.",
-        category: "Toothbrush",
+        name: "Shakti",
+        description: "",
+        category: "বাথরুম পরিষ্কার",
         country: "Bangladesh"
     },
     {
         id: 9,
-        name: "Fair & Lovely Cream",
-        description: "Fair & Lovely Cream brightens and evens out skin tone, giving a fairer complexion with regular use.",
-        category: "Skin Care",
+        name: "Clean Master",
+        description: "",
+        category: "বাথরুম পরিষ্কার",
         country: "Bangladesh"
     },
     {
         id: 10,
-        name: "Fastpic Toilet Cleaner",
-        description: "Fastpic Toilet Cleaner removes tough stains and kills germs, leaving your toilet clean and fresh.",
-        category: "Toilet Cleaner",
+        name: "Finis",
+        description: "",
+        category: "সাবান",
         country: "Bangladesh"
     },
+    {
+        id: 11,
+        name: "Amana",
+        description: "",
+        category: "বাথরুম পরিষ্কার",
+        country: "Bangladesh"
+    },
+    {
+        id: 12,
+        name: "Xtreme",
+        description: "",
+        category: "বাথরুম পরিষ্কার",
+        country: "Bangladesh"
+    },
+    {
+        id: 13,
+        name: "Magic Harbal",
+        description: "",
+        category: "টুথপেষ্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 14,
+        name: "White Plus",
+        description: "",
+        category: "টুথপেষ্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 15,
+        name: "Cute",
+        description: "",
+        category: "টুথপেষ্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 16,
+        name: "Active Toothpaste",
+        description: "",
+        category: "টুথপেষ্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "জুঁই",
+        description: "",
+        category: "চুলের তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "মায়া",
+        description: "",
+        category: "চুলের তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "কলম্বো",
+        description: "",
+        category: "চুলের তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "মেরিল অলিভ অয়েল",
+        description: "",
+        category: "চুলের তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Cute",
+        description: "",
+        category: "চুলের তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Pusti",
+        description: "",
+        category: "গুড়োদুধ",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "ACI",
+        description: "",
+        category: "গুড়োদুধ",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Pure Milk",
+        description: "",
+        category: "গুড়োদুধ",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "AMA",
+        description: "",
+        category: "গুড়োদুধ",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Mars",
+        description: "",
+        category: "গুড়োদুধ",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Starship",
+        description: "",
+        category: "গুড়োদুধ",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "কেয়া",
+        description: "",
+        category: "ডিটারজেন্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "তিব্বত",
+        description: "",
+        category: "ডিটারজেন্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "White Plus",
+        description: "",
+        category: "ডিটারজেন্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Chaka",
+        description: "",
+        category: "ডিটারজেন্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Jet",
+        description: "",
+        category: "ডিটারজেন্ট",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "ইস্পাহানি",
+        description: "",
+        category: "চা",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Bengal",
+        description: "",
+        category: "চা",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Kazi",
+        description: "",
+        category: "চা",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Cylon (আবুল খায়ের)",
+        description: "",
+        category: "চা",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "কেয়া",
+        description: "",
+        category: "শ্যাম্পু",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Cute",
+        description: "",
+        category: "শ্যাম্পু",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Revive",
+        description: "",
+        category: "শ্যাম্পু",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Meril",
+        description: "",
+        category: "শ্যাম্পু",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Select Plus",
+        description: "",
+        category: "শ্যাম্পু",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "পুষ্টি",
+        description: "",
+        category: "সয়াবিন তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "বসুন্ধরা",
+        description: "",
+        category: "সয়াবিন তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "সেনা",
+        description: "",
+        category: "সয়াবিন তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Teer",
+        description: "",
+        category: "সয়াবিন তেল",
+        country: "Bangladesh"
+    },
+    {
+        id: 17,
+        name: "Fresh",
+        description: "",
+        category: "সয়াবিন তেল",
+        country: "Bangladesh"
+    },
+    
+
+
+
 ];
 
 

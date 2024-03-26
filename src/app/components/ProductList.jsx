@@ -40,7 +40,7 @@ function ProductList() {
             {categories.map(category => (
             <button
                 key={category}
-                className={`mb-4 border border-green-500 px-3 md:px-4 py-1 md:py-2 rounded-xl ${selectedCategory === category ? 'bg-green-500 text-white' : 'bg-transparent text-green-500'}`}
+                className={`font-medium mb-4 border border-green-500 px-3 md:px-4 py-1 md:py-2 rounded-xl ${selectedCategory === category ? 'bg-green-500 text-white' : 'bg-transparent text-green-500'}`}
                 onClick={() => setSelectedCategory(category)}
             >
                 {category}
