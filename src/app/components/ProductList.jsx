@@ -32,7 +32,7 @@ function ProductList() {
             className={`mb-4 border border-green-500 px-3 md:px-4 py-1 md:py-2 rounded-xl ${selectedCategory === null ? 'bg-green-500 text-white' : 'bg-transparent text-green-500'}`}
             onClick={() => setSelectedCategory(null)}
             >
-            All Products
+            সকল পণ্য
             </button>
 
 
@@ -56,7 +56,7 @@ function ProductList() {
       {/* Products list based on category 😉 */}
 
       <div>
-        <h2 className="text-green-800 font-semibold mb-2 text-2xl">Products from Bangladesh</h2>
+        <h2 className="text-green-800 font-semibold mb-2 text-2xl">Products of Bangladesh</h2>
         <ul className="list-outside list-none">
           {filteredProducts.map(product => (
             <li key={product.id} className="text-gray-600" style={{ backgroundImage: 'url(/checkmark.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'left center', paddingLeft: '2rem' }}>
