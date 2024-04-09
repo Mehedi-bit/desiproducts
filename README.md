@@ -18,7 +18,7 @@ The Desi Products Website is an application that aims to showcase a variety of B
 
 ## Live Demo
 
-You can view the live website of Desi Products [here](https://desiproducts.vercel.app){:target="_blank"}.
+You can view the live website of Desi Products [here](https://desiproducts.vercel.app).
 
 ## Technologies Used
 
