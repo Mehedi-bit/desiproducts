@@ -1,4 +1,4 @@
-const bangladeshiProducts = [
+export const allProducts = [
     {
         id: 1,
         name: "Meril",
@@ -611,62 +611,3 @@ const bangladeshiProducts = [
 
 
 ];
-
-
-
-const indianProducts = [
-    {
-        id: 4,
-        name: "Navlon Antiseptic Liquid",
-        description: "Dettol Antiseptic Liquid is a household disinfectant that provides protection against germs and bacteria.",
-        category: "এন্টিসেপটিক",
-        country: "India"
-    },
-    {
-        id: 5,
-        name: "Patanjali Dant Kanti Toothpaste",
-        description: "Patanjali Dant Kanti Toothpaste is an herbal toothpaste known for its natural ingredients and oral care benefits.",
-        category: "টুথপেস্ট",
-        country: "India"
-    },
-    {
-        id: 6,
-        name: "Handsome Cream",
-        description: "Fair & Lovely Fairness Cream is a popular beauty product that claims to lighten the skin tone and reduce dark spots.",
-        category: "বিউটি প্রোডাক্টস",
-        country: "India"
-    }
-];
-
-const israeliProducts = [
-    // {
-    //     id: 7,
-    //     name: "Ahava Dead Sea Mineral Hand Cream",
-    //     description: "Ahava Dead Sea Mineral Hand Cream is enriched with minerals from the Dead Sea, providing deep hydration and nourishment to the skin.",
-    //     category: "Hand Cream",
-    //     country: "Israel"
-    // },
-    // {
-    //     id: 8,
-    //     name: "Sabra Hummus",
-    //     description: "Sabra Hummus is a creamy dip made from chickpeas, tahini, and olive oil, perfect for snacking or spreading on sandwiches.",
-    //     category: "Hummus",
-    //     country: "Israel"
-    // },
-    // {
-    //     id: 9,
-    //     name: "Israeli Couscous",
-    //     description: "Israeli Couscous, also known as pearl couscous, is a type of pasta made from semolina flour, popular in Middle Eastern cuisine.",
-    //     category: "Couscous",
-    //     country: "Israel"
-    // }
-];
-
-// Combine all products
-export const allProducts = [
-    ...bangladeshiProducts,
-    ...indianProducts,
-    ...israeliProducts
-];
-
-
