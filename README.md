@@ -9,6 +9,13 @@ The Desi Products Website is an application that aims to showcase a variety of B
 - Browse a wide range of desi products.
 - View detailed product information including descriptions and images.
 
+
+## Screenshots
+
+![Desi Products](https://i.ibb.co/6nJ988f/Screenshot-64.png)
+
+
+
 ## Live Demo
 
 You can view the live website of Desi Products [here](https://desiproducts.vercel.app).
