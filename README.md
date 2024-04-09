@@ -43,7 +43,7 @@ The project is currently deployed on Vercel. Any changes pushed to the main bran
 Contributions are welcome! If you'd like to contribute to the project, please fork the repository and create a pull request with your changes. Make sure to follow the existing code style and conventions.
 
 
-
+## Contact
 
 Thank you for checking out our Desi Products website! 
 If you have any questions or feedback, 
