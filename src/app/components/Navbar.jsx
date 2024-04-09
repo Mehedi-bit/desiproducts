@@ -9,7 +9,7 @@ const Navbar = () => {
 
             <div className="flex items-center justify-center sm:w-[50%] md:w-[30%] lg:w-[30%]">
                 <div className="form-control w-[100%]"> 
-                    <input type="text" placeholder="Search products" className="input input-bordered w-[100%] md:w-auto mr-5 h-10" />
+                    <input type="text" placeholder="Search products" className="input input-bordered w-[100%] md:w-auto mr-5 h-10 bg-white" />
                 </div>
             </div>
 
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="dropdown dropdown-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
-                    <img alt="Tailwind CSS Navbar component" src="user.png" />
+                    <img alt="menu" src="user.png" />
                     </div>
                 </div>
                 <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ImportExportStats = () => {
     return (
-        <div className='flex justify-center items-center mx-2 mb-48 flex-col gap-10'>
+        <div className='flex justify-center items-center mx-2 mb-48 flex-col gap-10 bg-white'>
             <div className="stats shadow w-[90%] md:w-[40%] flex flex-col justify-center items-center">
   
                 <div className="stat md:px-32">
