@@ -1,6 +1,3 @@
-import styles from "./Footer.module.css";
-import Image from "next/image";
-
 const Footer = () => {
   return (
     <footer className="footer p-10 text-white bg-green-500">
