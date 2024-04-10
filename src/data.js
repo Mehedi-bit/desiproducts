@@ -1,9 +1,9 @@
 export const allProducts = [
     {
         id: 1,
-        name: "Meril",
+        name: "Meril saban",
         description: "",
-        category: "সাবান",
+        category: null,
         country: "Bangladesh"
     },
     {
