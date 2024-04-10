@@ -3,7 +3,7 @@ export const allProducts = [
         id: 1,
         name: "Meril saban",
         description: "",
-        category: null,
+        category: 'সাবান',
         country: "Bangladesh"
     },
     {
