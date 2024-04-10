@@ -11,7 +11,7 @@ function ProductList() {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // Extract unique categories from allProducts
- const categories = [...new Set(allProducts.filter(product => product.category !== null).map(product => product.category))];
+ const categories = [...new Set(allProducts.filter(product => product.category !== 'General').map(product => product.category))];
 
   // Filter products based on selected category and country (Bangladesh)
   const filteredProducts = selectedCategory
